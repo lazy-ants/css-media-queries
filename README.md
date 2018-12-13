@@ -106,3 +106,56 @@
     and (-webkit-min-device-pixel-ratio : 2) {}
 ```
 
+###  Desktop First Method
+
+#### Medium Devices, Desktops
+```
+@media only screen and (max-width : 1200px) {}
+```
+
+#### Small Devices, Tablets
+```
+@media only screen and (max-width : 992px) {}
+```
+
+#### Phones
+```
+@media only screen and (max-width : 768px) {}
+```
+
+#### Small Devices
+```
+@media only screen and (min-width : 480px) {}
+```
+
+#### Extra Small, iPhone Retina
+```
+@media only screen and (max-width : 375px) {}
+```
+
+###  Mobile First Method
+
+#### Extra Small, iPhone Retina
+```
+@media only screen and (min-width : 320px) {}
+```
+
+#### Small Devices
+```
+@media only screen and (min-width : 480px) {}
+```
+
+#### Phones
+```
+@media only screen and (min-width : 480px) {}
+```
+
+#### Tablets, Desktops
+```
+@media only screen and (min-width : 992px) {}
+```
+
+#### Large Devices, Wide Screens 
+```
+@media only screen and (min-width : 1200px) {}
+```
